@@ -1,0 +1,3 @@
+# Ignore Poetry TOML files
+
+*.toml 
