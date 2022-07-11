@@ -6,4 +6,4 @@ Author: Dmytro Kuksenko
 
 
 if __name__ == "__main__":
-    pass
+    print("First commint in the main file.")
