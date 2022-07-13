@@ -253,6 +253,34 @@ python-versions = ">=3.6.8"
 diagrams = ["railroad-diagrams", "jinja2"]
 
 [[package]]
+name = "pyqt6"
+version = "6.3.1"
+description = "Python bindings for the Qt cross platform application toolkit"
+category = "main"
+optional = false
+python-versions = ">=3.6.1"
+
+[package.dependencies]
+PyQt6-Qt6 = ">=6.3.0"
+PyQt6-sip = ">=13.4,<14"
+
+[[package]]
+name = "pyqt6-qt6"
+version = "6.3.1"
+description = "The subset of a Qt installation needed by PyQt6."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pyqt6-sip"
+version = "13.4.0"
+description = "The sip module support for PyQt6"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
 name = "pytest"
 version = "5.4.3"
 description = "pytest: simple powerful testing with Python"
@@ -337,7 +365,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "9f641df63c16f8427cdb45a6407e56a9c3774575be6deec7bc6acf9e95741db1"
+content-hash = "c84d267200665be410933f3a534e1ade728a1dd13277e22f2a7ac11517bf2366"
 
 [metadata.files]
 atomicwrites = []
@@ -366,6 +394,9 @@ py = []
 pycodestyle = []
 pyflakes = []
 pyparsing = []
+pyqt6 = []
+pyqt6-qt6 = []
+pyqt6-sip = []
 pytest = []
 python-dateutil = []
 setuptools-scm = []
